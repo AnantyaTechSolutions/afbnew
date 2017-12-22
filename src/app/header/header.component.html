@@ -1,0 +1,479 @@
+<div class="header_top" id="fixednav">
+  <div class="header_sec" data-ix="scroll-fade-out-6" style="transition: opacity 300ms, transform 300ms; opacity: 1; transform: translateX(0px) translateY(0px);">
+    <div class="container-fluid mob-width">
+      <div class="fix-logo hidelogo" style="display: block;">
+        <a href="#"><img src="assets/images//newPages/logo-fixed.png" alt="AFB Logo"></a>
+      </div>
+      <div class="social_right">
+        <div class="sign_af" href="#" id="loginform" style="border: none;">
+          <span class="login_top_text">Login</span> <span class="login_top_ico"><img src="assets/images//newPages/login_ico.png" alt="Freight Rates" width="25px"></span>
+        </div>
+
+        <div class="login">
+          <div class="arrow-up"></div>
+          <div class="formholder">
+            <div class="randompad">
+              <!-- <fieldset>
+           <label name="email">Email</label>
+           <input type="email" placeholder="example@example.com"/>
+           <label name="password">Password</label>
+           <input type="password" placeholder="Password"/>
+           <input type="submit" value="Login" />
+         </fieldset> -->
+              <div style="margin-bottom: 35px; padding: 0px 7px;">
+                <div class="card card-container">
+                  <div>
+
+                    <label style="width: 100%; text-align: center; color: white; display: none;" id="aleradyLog"></label>
+
+                    
+
+                    
+
+
+                    <!-- check already login -->
+
+                    
+                      
+
+                        <form name="loginForm" action="j_spring_security_check;jsessionid=959899E8E8BE2827367500B2D64BCEF8" method="POST" class="form-signin form-swap collapse in" role="form" id="login-form" novalidate="novalidate">
+
+                          <!-- 							<p id="login-header-text">Sign In</p> -->
+                          <p id="login-header-text">
+                            Welcome Back!
+                          </p>
+
+
+
+                          
+                            
+                            
+                              <div class="group">
+                                <input type="text" id="username" name="j_username" autofocus="" required=""> <span class="highlight"></span>
+                                <span class="bar"></span> <label>Email address</label>
+                              </div>
+                              
+                            
+                          
+                          <label for="username" id="usernameLabel" class="error" style="display: none;">Please Enter Username</label>
+                          <div class="group">
+                            <input type="password" id="password" name="j_password" required=""> <span class="highlight"></span> <span class="bar"></span> <label>Password</label>
+                          </div>
+                          <label for="password" class="error" id="passwordLabel" style="display: none;">Please Enter Password</label>
+                          
+
+                          <input type="checkbox" id="terms-condition-checkbox" name="termscondition" checked="">
+
+                          <div class=" terms-condition-text">
+                            <p style="font-size: 12px; color: #fff; text-align: left; width: 95%; line-height: 16px; padding: 2px 10px; float: left;">
+                              <!-- I agree <span id="login-disclaimer">Disclaimer</span>, <span
+                  id="login-terms-condition">Terms & Condition</span> and <span
+                  id="login-privacy-policy">Privacy Policy</span> -->
+                              
+                                  I accept <a href="termsofuse" class="termsOfUseStyle">Terms Of Use</a>
+                            </p>
+                          </div>
+                          <label for="termscondition" class="error" id="termsconditionerrorlabel" style="display: none;">I Agree to Terms
+                            &amp; Conditions</label>
+                          <div class="" style="margin-top: 10px; margin-bottom: 10px; width: 100%; float: left;">
+                            <input name="submit" type="submit" value="Login" id="login-btn" class="btn  btn-primary btn-block btn-signin"> <input type="button" value="Clear" id="login-clear-btn" class="btn  btn-primary btn-block btn-signin">
+
+                          </div>
+                          <input type="hidden" name="_csrf" value="f2879297-995b-4d22-94a2-0bccc89e04da">
+                          <div style="clear: both;"></div>
+
+
+                          <input type="hidden" id="browser" name="browser" value="">
+                          <input type="hidden" id="lat" name="latitude" value="">
+                          <input type="hidden" id="long" name="longitude" value="">
+                          <input type="hidden" id="city" name="cityName" value="">
+                          <input type="hidden" id="offset" name="offset" value="-330">
+                        </form>
+                      
+                      
+                    
+                    <!-- /form -->
+                    <form id="forgot-pwd-form" class="form-forgot form-swap collapse" method="post" data-toggle="validator" role="form" novalidate="novalidate">
+                      <label style="width: 100%; text-align: center; color: white; float: left;" id="aleradyLog"></label>
+                      <!-- 					<p id="login-header-text">Forgot Password</p> -->
+                      <p id="login-header-text">
+                        Forgot Password
+                      </p>
+
+                      <div class="group">
+                        <!-- 						<input type="email" id="emailId" class="form-control" 
+            placeholder="Username(Email)" name="username" required=""> -->
+                        
+                        <input type="email" id="emailId" name="username" required="">
+                        <span class="highlight"></span> <span class="bar"></span> <label>Username(Email)</label>
+                      </div>
+                      <label for="emailId" class="error">Please enter Username(Email)</label>
+                      <div class="form-group com-sec-code-content" style="margin-bottom: 0px;">
+                        <!-- <div class="group  sec-code-content col-md-9">
+                          <input type="text" name="seccode" id="seccode" required />
+                          <span class="highlight"></span> <span class="bar"></span>
+                          <label>Security Code</label>
+                        </div> -->
+
+                        <!--yuva -->
+                        
+                        <label for="seccode" class="error" style="right: 80px;">Security
+                          Code</label>
+                        <div style="clear: both;"></div>
+                      </div>
+
+
+                      
+                      <div class="form-group com-sec-code-hint">
+                        <p>Your security code is car</p>
+                      </div>
+
+                      <!--captcha start-->
+                      <div class="form-group" style="margin-bottom: 0px;">
+                        <div id="CaptchaContainer" class=" recaptcha_nothad_incorrect_sol recaptcha_isnot_showing_audio"><div id="recaptcha_image" style="width: 300px; height: 57px;"><img id="recaptcha_challenge_image" alt="reCAPTCHA challenge image" height="57" width="300" src="https://www.google.com/recaptcha/api/image?c=03AMPJSYXGjZhEEzLv8-WuWFKs3qaqP6KZ85DYy4iMVQpvCSwzeFfIr6ZgzTP_a1-NMmOlAcMfCYof9PAODqXQGfW9cmmmtLsaxO270e4NxIFZ_3JH9-qqSJBTLniH9AEMciWtT7h3jIWy9BxWshmA5cLXZ3ayKxEcsMM6FT5BNM9AHDhv_7DqSKX_iEsoWxwjFQIEBfSu7MKJB3iKS8xd5S97Mt9Gn7P9Ig&amp;th=,DP1X_dywSEWw6yTqSPW2w52AsA6IOU_wAAAAJaAAAAGEawOalwKIyeByR1kRoeINDiSnB9TjA_EXPjK2jJooh1kdka-rlVXj03SqssIN8h6lYl40L1p6qo2fQxwDAtAK_26JP1m_IursofYOy2OgQT8kYw4u4MgtM07c1G5_Vl8CLRhK_9SHo9CBpfLGB8hscW2djZMpQCWNrOGqWmUSR3VrD9jz4jKETICjc4-mb-lLMd7rlVtKXAJzHle_hPQxQWIDkw1c0HRFT0gb4qo-xcsuOJGreO2GXI3bICTEGc4kKiaDt_Wt3UsjMJ9joar_ZNoBfJNdeETa2TwgcTuVzwNzo9oPYnPnbe-WasWXeIs6ClH0Cp3EkkH5TOzTx-elQGWSehukgkpTpZTEIeMYtypsB9g0g39nB1A6Bl-sZZkER6JMQg8WFUaMKHEgxGpYVS6sCh8GbwdBaqwpt5lECX-R2hugYe1VhCv78kQPExdSKNJjZtzx2KKMx8HXXYIAbx5GAXHuHr6sIuzdfV3G49ncULUnjIa3yK8el1HU_Bpw9ixz8Cm3ATcz84O1FM2dTXq9d-q1XnbMg9_lxlSW8pNQGqswZ0RRFy3s83iMfnHZTWr8nGsmHCThs8ps6pvJwgmsAnU6OjukUdpdbIMk_wmUSRccJgeB_GPpw3pA8BcNe2BV6YEEb4P16W6wqYovtG0OjU_4GMDIQyBD0C7g6YZu6i0PniG0S7xGXdtBpruAbcMLST3-bi6gLhCMLqK1R4RhCzQZ623n-S8OIj3lI5_Sh_SbRo8alOYrgwH4I-04-6mG5Db8Tg_Bbn4Md1vQK81q8gFi-9VHYHtp3T_lp9puDEc6d1lN5D_jnkSwXqk29lOhMpT4T2eHFX0RFjZUgNOTPz2FAAVQhWcBrgb8C9732SJLA9PtYTjbEC3HmagSK9zSq6h2JvyBs5HaBAR7fpgBcuq4Dzk-5t8I6j_jpWkalgXwnanG8jRuisY3cr3ZvajjAMEv9Yb3-pYehztvhMjcZslWiPEjfDi9X3FrGZtlJLkhagnkY1v94zjR2gALykNbRQLgoxENgme8AndwiWZkRALeSPLogC-eRdClQqltYLHEE5ZhlP1IiVolvqSZrXVIz9WDTxrIpqMxEi3k8sCPt0KxPhdyfKHfSBbw2sKx9y4agoO2mTDSib23esbQzVm_dMD33030gXxz4dq7lWPEtrXXQW2jDdr6IJjrUYKFnqMCrhrmzHQoKBwaJHnyjUIGCq8ixq8pYUdWYg"></div><div class="recaptcha_only_if_incorrect_sol" style="color:red">Incorrect please try again</div><span class="recaptcha_only_if_image">Enter the words above:</span><span class="recaptcha_only_if_audio">Enter the numbers you hear:</span> <span id="recaptcha_challenge_field_holder" style="display: none;"><input type="hidden" name="recaptcha_challenge_field" id="recaptcha_challenge_field" value="03AMPJSYXGjZhEEzLv8-WuWFKs3qaqP6KZ85DYy4iMVQpvCSwzeFfIr6ZgzTP_a1-NMmOlAcMfCYof9PAODqXQGfW9cmmmtLsaxO270e4NxIFZ_3JH9-qqSJBTLniH9AEMciWtT7h3jIWy9BxWshmA5cLXZ3ayKxEcsMM6FT5BNM9AHDhv_7DqSKX_iEsoWxwjFQIEBfSu7MKJB3iKS8xd5S97Mt9Gn7P9Ig"></span><input type="text" id="recaptcha_response_field" name="recaptcha_response_field" autocomplete="off"><div style="float:right;position: relative;padding:6px 24px;"><div class="recaptcha_reload"><a href="javascript:Recaptcha.reload()"><i class="fa fa-refresh" aria-hidden="true" style="color:#fff;"></i></a></div><div class="recaptcha_only_if_image"><a href="javascript:Recaptcha.switch_type('audio')"><i class="fa fa-volume-up" aria-hidden="true" style="color:#fff;"></i></a></div><div class="recaptcha_only_if_audio"><a href="javascript:Recaptcha.switch_type('image')"><i class="fa fa-picture-o" aria-hidden="true" style="color:#fff;"></i></a></div><div class="recaptcha_help"><a href="javascript:Recaptcha.showhelp()"><i class="fa fa-question" aria-hidden="true" style="color:#fff;"></i></a></div></div></div>
+                      </div>
+
+
+                      <!-- <div id="recaptcha_widget" style="display:none">
+          
+        </div> -->
+                      <!--captcha end-->
+
+                      <br> <br>
+                      <div class=" ">
+                        <div class="form-group mob-res-fix" style="margin-top: -34px; float: left; width: 100%; margin-bottom: 7px;">
+                          <input type="submit" value="Submit" id="forgot-pwd-submit-btn" class="btn btn-lg btn-primary btn-block btn-signin ">
+                          <input type="button" value="Clear" id="forgot-pwd-clear" class="btn btn-lg btn-primary btn-block btn-signin ">
+                        </div>
+                      </div>
+                    </form>
+                    
+                    
+                  <!-- 	<div class="g-signin2" data-onsuccess="onSignIn"></div>
+                    <a id="googleSignOut" onclick="signOut();"></a> -->
+                  <!-- 	<fb:login-button scope="public_profile,email" onlogin="checkLoginState();" id="fbbbb">
+            </fb:login-button><a onclick="logout()" id="facebookSignOut"></a> -->
+                    <!-- /form -->
+                    <a class="forgot" data-toggle="collapse" data-target=".form-swap" target="" id="forgotPwd_link" style="cursor: pointer;">Forgot password?</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="sign_af" href="paymentsignup" id="register_top" style="border: none;"><span class="signup_top_text">Sign
+            up</span> <span class="signup_top_ico"><img src="assets/images//newPages/signup_ico.png" alt="AFB SignUp" width="25px"></span></a>
+        <!-- <a class="sign_af" href="combopack"  id="register_top" style="border: none;"><span class="signup_top_text">Sign up</span> <span class="signup_top_ico"><img src="assets/images//newPages/signup_ico.png" alt="AFB SignUp" width="25px"/></span></a> -->
+        
+        <div class="callback_link" href="#" id="callback" style="border: none;">
+          <img style="margin-top: -5px;" src="assets/images//newPages/callback_icon1.png" alt="Freight News" onmouseover="this.src='images/newPages/callback_icon1_hover.png';" onmouseout="this.src='images/newPages/callback_icon1.png';" onclick="this.src='images/newPages/callback_icon1_hover.png'">
+        </div>
+        <div class="callback_page">
+          <div class="arrow-up3"></div>
+          <div class="formholder">
+            <div class="randompad" style="padding: 15px;">
+              <div class="callUs" style="display:none;">
+                Call Us @ <a href="tel:+919380050000">+91 - 93800 50000</a><br>Or<br>
+
+              </div>
+              <div id="callbackPart">
+                <fieldset>
+                  <form id="callback-form" novalidate="novalidate">
+
+                    <!-- <input placeholder="Name" type="text" name="name" /> 
+                     <input placeholder="Email address" type="email" name="username" />
+                     <input placeholder="Mobile" type="text" class="mobile_no" name="mobile" /> -->
+                    <div class="group">
+                      <input type="text" name="name" required=""> <span class="highlight"></span> <span class="bar"></span> <label>User
+                        Name</label>
+                    </div>
+                    <label for="name" class="error"></label>
+                    <div class="group">
+                      <input type="email" name="username" required=""> <span class="highlight"></span> <span class="bar"></span> <label>Email
+                        address</label>
+                    </div>
+                    <label for="username" class="error"></label>
+                    <div class="group">
+                      <input type="text" name="mobile" required=""> <span class="highlight"></span> <span class="bar"></span> <label>Mobile
+                        No</label>
+                    </div>
+                    <label for="mobile" class="error"></label> <label name="preferred_time" style="float: left; clear: both;">Preferred
+                      time(IST)</label><br>
+                    <div class="group">
+                      <select name="preferred_time">
+                        <option value="">Select Time</option>
+                        <option value="00:00 AM - 01:00 AM">00:00 AM -
+                          01:00 AM</option>
+                        <option value="01:00 AM - 02:00 AM">01:00 AM -
+                          02:00 AM</option>
+                        <option value="02:00 AM - 03:00 AM">02:00 AM -
+                          03:00 AM</option>
+                        <option value="03:00 AM - 04:00 AM">03:00 AM -
+                          04:00 AM</option>
+                        <option value="04:00 AM - 05:00 AM">04:00 AM -
+                          05:00 AM</option>
+                        <option value="05:00 AM - 06:00 AM">05:00 AM -
+                          06:00 AM</option>
+                        <option value="06:00 AM - 07:00 AM">06:00 AM -
+                          07:00 AM</option>
+                        <option value="07:00 AM - 08:00 AM">07:00 AM -
+                          08:00 AM</option>
+                        <option value="08:00 AM - 09:00 AM">08:00 AM -
+                          09:00 AM</option>
+                        <option value="09:00 AM - 10:00 AM">09:00 AM -
+                          10:00 AM</option>
+                        <option value="10:00 AM - 11:00 AM">10:00 AM -
+                          11:00 AM</option>
+                        <option value="11:00 AM - 12:00 PM">11:00 AM -
+                          12:00 PM</option>
+                        <option value="12:00 PM - 01:00 PM">12:00 PM -
+                          01:00 PM</option>
+                        <option value="01:00 PM - 02:00 PM">01:00 PM -
+                          02:00 PM</option>
+                        <option value="02:00 PM - 03:00 PM">02:00 PM -
+                          03:00 PM</option>
+                        <option value="03:00 PM - 04:00 PM">03:00 PM -
+                          04:00 PM</option>
+                        <option value="04:00 PM - 05:00 PM">04:00 PM -
+                          05:00 PM</option>
+                        <option value="05:00 PM - 06:00 PM">05:00 PM -
+                          06:00 PM</option>
+                        <option value="06:00 PM - 07:00 PM">06:00 PM -
+                          07:00 PM</option>
+                        <option value="07:00 PM - 08:00 PM">07:00 PM -
+                          08:00 PM</option>
+                        <option value="08:00 PM - 09:00 PM">08:00 PM -
+                          09:00 PM</option>
+                        <option value="09:00 PM - 10:00 PM">09:00 PM -
+                          10:00 PM</option>
+                        <option value="10:00 PM - 11:00 PM">10:00 PM -
+                          11:00 PM</option>
+                        <option value="11:00 PM - 00:00 AM">11:00 PM -
+                          00:00 AM</option>
+                      </select>
+                    </div>
+                    <label for="preferred_time" class="error"></label>
+                    <!--              					<input type="time" name="preferred_time" /> -->
+                  </form>
+                  <input type="submit" id="callback-form-submit-btn" value="Submit">
+                </fieldset>
+              </div>
+              <div id="callbackSuccess" style="display: none; text-align: center;">
+                <label>We have received your callback request.<br>
+                  Our Customer Service callback shortly.
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="social-mob">
+          <a class="sc_ico" href="https://play.google.com/store/apps/details?id=com.afb.airfreightbazaar" style="border: none;" target="_blank"><i style="font-size: 24px; top: 3px; position: relative; color: #000000;" class="fa fa-android" aria-hidden="true"></i></a>
+          <!-- 				<a class="sc_ico" href="#" style="border: none; margin: 0;"><i style="font-size: 24px; top: 3px; position: relative; color: #b1b1b1;" class="fa fa-apple" aria-hidden="true" target="_blank"></i></a> -->
+        <!-- 	<a class="sc_ico dsmbn"
+            href="https://plus.google.com/+AirFreightBazaar" target="_blank"><i
+            class="fa fa-google-plus" aria-hidden="true"></i></a> <a
+            class="sc_ico dsmbn"
+            href="https://www.facebook.com/airfreightbazaar/" target="_blank"><i
+            class="fa fa-facebook" aria-hidden="true"></i></a> <a
+            class="sc_ico dsmbn" href="https://twitter.com/airfreightbazar"
+            target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a class="sc_ico dsmbn"
+            href="https://www.linkedin.com/in/airfreightbazaar"
+            target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a> -->
+          <a class="callUsAt" href="tel:+919380050000">
+              Call Us @ +91 - 93800 50000 </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<section id="header" class="section-hero mr-51">
+  <div class="container-fluid pd0">
+    <div class="row fxh">
+      <div class="col-md-12">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        </ol> -->
+          <!-- 					<div class="header_sec3" data-ix="scroll-fade-out-6">
+          <div class="container">
+            <form>
+              <h3>GET A QUOTE</h3>
+              <input type="text" class="form-control" id="departure" placeholder="DEPARTURE" autocomplete="off">
+              <input type="text" class="form-control" id="destination" placeholder="DESTINATION" autocomplete="off">
+              <input type="text" class="form-control" id="date" placeholder="DATE" autocomplete="off">
+              <input type="text" class="form-control" id="weight" placeholder="WEIGHT" autocomplete="off">
+              <button class="btn btn-primary submit-button">GET</button>
+            </form>
+          </div>
+        </div> -->
+          <div class="carousel-inner">
+            <div class="swiper-container swiper-container-horizontal">
+              <div class="swiper-wrapper" style="transform: translate3d(-4047px, 0px, 0px); transition-duration: 0ms;">
+                <div class="swiper-slide" style="width: 1349px;">
+                  <div class="item active cnt_bnrhome1_desk">
+                    <div class="container" style="position: relative;">
+                      <div class="carousel-caption">
+                        <div class="cnt_bnrhome1">
+                          <div class="banner_txt_1">
+                            <h3 data-ix="scroll-fade-out-8" style="transition: opacity 300ms, transform 300ms; opacity: 1; transform: translateX(0px) translateY(0px);">REDEFINING</h3>
+                            <h4 data-ix="scroll-fade-out-9" style="transition: opacity 300ms, transform 300ms; opacity: 1; transform: translateX(0px) translateY(0px);">NUMBERS.</h4>
+                          </div>
+                          <div class="banner_txt_2">
+                            <h3 data-ix="scroll-fade-out-10" style="transition: opacity 300ms, transform 300ms; opacity: 1; transform: translateX(0px) translateY(0px);">REINVENTING</h3>
+                            <h4 data-ix="scroll-fade-out-11" style="transition: opacity 300ms, transform 300ms; opacity: 1; transform: translateX(0px) translateY(0px);">STANDARDS.</h4>
+                          </div>
+                          <div class="banner_txt_3">
+                            <div class="sub_head_banner" data-ix="scroll-fade-out-12" style="opacity: 0.1; transform: translateX(0px) translateY(-15px);">Comprehensive
+                              Rate Scale</div>
+                            <p class="sub_p_banner" data-ix="scroll-fade-out-13" style="opacity: 0.1; transform: translateX(0px) translateY(-15px);">Air
+                              Freight Bazaar offers a one-stop platform for accurate
+                              air freight pricing, ensuring:</p>
+                          </div>
+                        </div>
+                        <div class="banner_txt_4">
+                          <div class="col-md-2 col-sm-4" data-ix="scroll-fade-out-10" style="opacity: 0.1; transform: translateX(0px) translateY(-15px);">
+                            <i><img src="assets/images/newPages/transparency.png" alt="Transparency"></i>
+                            <p class="icon_txt">Transparency</p>
+                          </div>
+                          <div class="col-md-2 col-sm-4" data-ix="scroll-fade-out-11" style="opacity: 0.1; transform: translateX(0px) translateY(-15px);">
+                            <i><img src="assets/images/newPages/speed_efficiency.png" alt="Speed &amp; Efficiency"></i>
+                            <p class="icon_txt">Speed and Efficiency</p>
+                          </div>
+                          <div class="col-md-2 col-sm-4" data-ix="scroll-fade-out-12" style="opacity: 0.1; transform: translateX(0px) translateY(-15px);">
+                            <i><img src="assets/images/newPages/real_time_updation.png" alt="Real-time updation"></i>
+                            <p class="icon_txt">Real-time updating</p>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+                <div class="swiper-slide" style="width: 1349px;">
+                  <div class="item bn_sec cnt_bnrhome2_desk">
+                    <div class="container" style="position: relative;">
+                      <div class="carousel-caption home-slide-mob">
+                        <div class="cnt_bnrhome5">
+                          <div class="banner_txt_1">
+                            <h4 data-ix="scroll-fade-out-9" style="transition: opacity 300ms, transform 300ms; opacity: 1; transform: translateX(0px) translateY(0px);">Importers/Exporters
+                            </h4>
+                          </div>
+                          <div class="banner_txt_3">
+                            <p class="sub_p_banner" data-ix="scroll-fade-out-13" style="transition: opacity 300ms, transform 300ms; opacity: 1; transform: translateX(0px) translateY(0px);">When
+                              it comes to importers/exporters, finding reliable
+                              information is essential. With Air Freight Bazaar’s
+                              platform, they can now:</p>
+                          </div>
+                        </div>
+                        <div class="banner_txt_4">
+                          <div class="col-md-2 col-sm-4" data-ix="scroll-fade-out-10" style="opacity: 0.1; transform: translateX(0px) translateY(-15px);">
+                            <i><img src="assets/images/newPages/banner_ico13.png" alt="Get Best deals and rates realtime"></i>
+                            <p class="icon_txt">Get Best deals and rates realtime
+                            </p>
+                          </div>
+                          <div class="col-md-2 col-sm-4" data-ix="scroll-fade-out-11" style="opacity: 0.1; transform: translateX(0px) translateY(-15px);">
+                            <i><img src="assets/images/newPages/banner_ico14.png" alt="Anywhere to anywhere"></i>
+                            <p class="icon_txt">Anywhere to anywhere</p>
+                          </div>
+                          <div class="col-md-2 col-sm-4" data-ix="scroll-fade-out-12" style="opacity: 0.1; transform: translateX(0px) translateY(-15px);">
+                            <i><img src="assets/images/newPages/banner_ico15.png" alt="Improve business operations"></i>
+                            <p class="icon_txt">Connect buyer seller globally</p>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide-prev" style="width: 1349px;">
+                  <div class="item bn_sec cnt_bnrhome3_desk">
+                    <div class="container" style="position: relative;">
+                      <div class="carousel-caption home-slide-mob">
+                        <div class="cnt_bnrhome2">
+                          <div class="banner_txt_1">
+                            <h4 data-ix="scroll-fade-out-9" style="transition: opacity 300ms, transform 300ms; opacity: 1; transform: translateX(0px) translateY(0px);">Airlines</h4>
+                          </div>
+                          <div class="banner_txt_3">
+                            <p class="sub_p_banner" data-ix="scroll-fade-out-13" style="transition: opacity 300ms, transform 300ms; opacity: 1; transform: translateX(0px) translateY(0px);">Airlines
+                              need a platform to reach out to their multiple
+                              stakeholders. Through Air Freight Bazaar, they can:</p>
+                          </div>
+                        </div>
+                        <div class="banner_txt_4">
+                          <div class="col-md-2 col-sm-4" data-ix="scroll-fade-out-10" style="opacity: 0.1; transform: translateX(0px) translateY(-15px);">
+                            <i><img src="assets/images/newPages/banner_ico4.png" alt="Update competitive tariffs"></i>
+                            <p class="icon_txt">Update competitive tariffs on a
+                              single platform</p>
+                          </div>
+                          <div class="col-md-2 col-sm-4" data-ix="scroll-fade-out-11" style="opacity: 0.1; transform: translateX(0px) translateY(-15px);">
+                            <i><img src="assets/images/newPages/banner_ico5.png" alt="specific rates"></i>
+                            <p class="icon_txt">Select target groups for specific
+                              rates</p>
+                          </div>
+                          <div class="col-md-2 col-sm-4" data-ix="scroll-fade-out-12" style="opacity: 0.1; transform: translateX(0px) translateY(-15px);">
+                            <i><img src="assets/images/newPages/banner_ico6.png" alt="prices to selected agents"></i>
+                            <p class="icon_txt">Notify selected discounted prices
+                              to selected agents</p>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide-active" style="width: 1349px;">
+                  <div class="item bn_sec cnt_bnrhome4_desk">
+                    <div class="container" style="position: relative;">
+                      <div class="carousel-caption home-slide-mob">
+                        <div class="cnt_bnrhome4">
+                          <div class="banner_txt_1">
+                            <h4 data-ix="scroll-fade-out-9" style="transition: opacity 300ms, transform 300ms; opacity: 1; transform: translateX(0px) translateY(0px);">Agents</h4>
+                          </div>
+                          <div class="banner_txt_3">
+                            <p class="sub_p_banner" data-ix="scroll-fade-out-13" style="transition: opacity 300ms, transform 300ms; opacity: 1; transform: translateX(0px) translateY(0px);">Agents
+                              play a vital role in ensuring seamless operations in the
+                              air cargo business. Air Freight Bazaar allows agents to:</p>
+                          </div>
+                        </div>
+                        <div class="banner_txt_4">
+                          <div class="col-md-2 col-sm-4" data-ix="scroll-fade-out-10" style="opacity: 0.1; transform: translateX(0px) translateY(-15px);">
+                            <i><img src="assets/images/newPages/banner_ico10.png" alt="View all rates"></i>
+                            <p class="icon_txt">View all rates</p>
+                          </div>
+                          <div class="col-md-2 col-sm-4" data-ix="scroll-fade-out-11" style="opacity: 0.1; transform: translateX(0px) translateY(-15px);">
+                            <i><img src="assets/images/newPages/banner_ico11.png" alt="Upload &amp; sell your rates"></i>
+                            <p class="icon_txt">Upload and sell your rates</p>
+                          </div>
+                          <div class="col-md-2 col-sm-4" data-ix="scroll-fade-out-12" style="opacity: 0.1; transform: translateX(0px) translateY(-15px);">
+                            <i><img src="/assets/images/newPages/banner_ico12.png" alt="Sell rates to importers &amp; exporters"></i>
+                            <p class="icon_txt">Get overseas inquiries</p>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-down2">
+    <a class="mob_dsnone" href="#members"> <span class="animate_down_arrow"> 
+      <i class="fa fa-angle-double-down "></i>
+    </span>
+
+    </a>
+  </div>
+</section>

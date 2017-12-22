@@ -1,0 +1,7 @@
+<div class="col-md-2 col-sm-4 col-xs-6" *ngFor="let foot of footer" >
+      <h3>{{foot.name}}</h3>
+    <ul>
+      <li *ngFor="let footText of foot.submenu" (footerheading)="footerTexts" ><a href="{{footText | replaceLineBreaks | lowercase}}" id="{{foot.id}}">{{footText}} </a></li>
+      
+    </ul>
+  </div>

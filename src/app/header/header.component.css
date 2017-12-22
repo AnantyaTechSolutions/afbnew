@@ -1,0 +1,1111 @@
+/* .card-container.card {
+	max-width: 376px;
+	padding: 5px 16px;
+	   height: 350px;
+	border-radius: 18px;
+} */
+
+.card-container.card {
+	padding: 10px 0px !important;
+    max-width: 376px;
+/*     padding: 5px 16px; */
+    /* height: 350px; */
+    border-radius: 4px;
+    width: 500px;
+    box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+
+/*#already-login-content {
+	 height: 135px;
+}*/
+/*
+ * Card component
+ */
+.card {
+	background-color: rgba(255, 255, 255, 0.83);
+	/* just in case there no content*/
+	padding: 20px 25px 30px;
+	margin: 0 auto 25px;
+	/* float: none;*/
+	margin-top: 50px;
+	/* shadows and rounded borders */
+	-moz-border-radius: 2px; -webkit-border-radius : 2px;
+/* 	border-radius: 10px; */
+	-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	-webkit-border-radius: 2px;
+}
+
+/*
+ * Form styles
+ */
+.form-signin #username, .form-signin #password {
+	direction: ltr;
+	height: 44px;
+	font-size: 16px;
+}
+
+.form-signin input[type=email], .form-signin input[type=password],
+	.form-signin input[type=text], .form-signin button {
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+	z-index: 1;
+	position: relative;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+	outline: 0;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px
+		rgb(104, 145, 162);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px
+		rgb(104, 145, 162);
+}
+
+.forgot-password {
+	color: rgb(104, 145, 162);
+}
+
+.forgot-password:hover, .forgot-password:active, .forgot-password:focus
+	{
+	color: rgb(12, 97, 33);
+}
+#wrap {
+    margin: 0 auto 30px;
+  }
+  
+  #regbar {
+    height: 67px;
+    background: #34495e;
+  }
+  
+  #navthing {
+    margin-left: 50px;
+  }
+  
+  
+  .randompad > fieldset {
+    border: none;
+    padding:10px;
+  }
+  .termsOfUseStyle{
+      color:white !important; 
+  } 
+  .login, .signup_top /* .callback_page */ {
+    position: absolute;
+    width: 350px;
+    display: none;
+    right:/* 12% */ 23%;
+    top:48px;
+  }
+  .callback_page{
+    position: absolute;
+    width: 350px;
+    display: none;
+    right:/* 12% */ 20%;
+    top:48px;
+  }
+  .arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 15px solid rgba(30, 50, 101, 0.75);
+    left: 21% /* 19% */;
+    position: absolute;
+    top: -10px;
+  }
+  
+  .arrow-up2 {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 15px solid rgba(30, 50, 101, 0.75);
+    right: 54%;
+    position: absolute;
+    top: -10px;
+  }
+  
+  .arrow-up3 {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 15px solid rgba(30, 50, 101, 0.75);
+    left:53% /* 47% */;
+    position: absolute;
+    top: -10px;
+  }
+  
+  .formholder {
+    background: rgba(30, 50, 101, 0.78);
+    width: 350px;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+  }
+  /* .formholder input[type="email"], .formholder input[type="password"], .formholder input[type="number"], .formholder input[type="time"], .formholder input[type="text"],.formholder select[name="preferred_time"] {
+     padding: 3px 5px;
+     margin: 10px 0;
+     width: 100%;
+     display: block;
+     color: #fff;
+     font-size: 15px;
+     background-color: transparent;
+     border-radius: 0px;
+     border: 1px solid #fff;
+    -webkit-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    transition: 0.3s linear;
+  }
+  .formholder input[type="email"]:focus, .formholder input[type="password"]:focus {
+    outline: none;
+    box-shadow: 0 0 1px 1px #ed2624;
+  } */
+  .formholder input[type="submit"] {
+    background: #ed2624;
+    padding: 5px;
+    font-size: 18px;
+    display: block;
+    width: /* 48% */ 100% !important;
+    border: none;
+    color: #fff;
+    border-radius: 0px;
+    float:left;
+  }
+  #yes-login-btn{
+      background: #ed2624;
+      padding: 5px;
+      font-size: 18px;
+      display: block;
+      width: 48%;
+      border: none;
+      color: #fff;
+      border-radius: 0px;
+      float: left;
+  }
+  #no-login-btn{
+      background: #ed2624;
+      padding: 5px;
+      font-size: 18px;
+      display: block;
+      width: 48%;
+      border: none;
+      color: #fff;
+      border-radius: 0px;
+      float: right;
+   }
+  .formholder input[type="submit"]:hover {
+    background: #F44336 !important;
+  }
+  
+  .randompad {
+    padding: 10px;
+    display: inline-block;
+    width:100%;
+  }
+  
+  .green {
+    color: #ed2624;
+  }
+  
+  
+  /* Aravinthan added style start */
+  .randompad > fieldset > label {
+      display: inline-block;
+      max-width: 100%;
+      margin-bottom: 5px;
+      font-weight: 300;
+      float: left;
+      color: #fff;
+  }
+  #login-clear-btn {
+      background: #ed2624;
+      padding: 5px;
+      font-size: 18px;
+      display: none;
+      width: 48%;
+      border: none;
+      color: #fff;
+      border-radius: 0px;
+      float:right;
+      margin-top:0px;
+  }
+  button#registerSubmit {
+      background: #ed2624;
+      padding: 5px;
+      font-size: 18px;
+      display: block;
+      width: 100%;
+      border: none;
+      color: #fff;
+      border-radius: 0px;
+      margin-top:0px;
+  }
+  #forgot-pwd-clear {
+      background: #ed2624;
+      padding: 5px;
+      font-size: 18px;
+      display: none;
+      width: 48%;
+      border: none;
+      color: #fff;
+      border-radius: 0px;
+      float:right;
+      margin-top:0px;
+  }
+  #forgot-pwd-clear:hover {
+      background: #d42624;
+  }
+  a#forgotPwd_link {
+      float: right;
+      color:#ddd;
+          margin-top: 0px;
+  }
+  .form-signin > .form-control  {
+      background-color:transparent;
+      border: 1px solid #fff;
+      font-size:15px;
+      margin: 10px 0;
+      padding: 3px 5px;
+      border-radius: 0px;
+      color: #fff;
+  }
+  #login-disclaimer, #login-terms-condition, #login-privacy-policy {
+      cursor:pointer;
+  }
+  #terms-condition-checkbox {
+      float:left;
+      width:auto;
+  }
+  .form-signin > label {
+      color:red;
+      font-size: 14px;
+      text-align: left;
+      float: left;
+  }
+  .form-group > label {
+      color:red;
+      font-size: 14px;
+      text-align: left;
+      float: left;
+  }
+  p#login-header-text {
+      color: #fff;
+      font-size: 17px;
+      text-align: center;
+  }
+  .sec-code-content {
+      padding:0px;
+  }
+  .sec-code-content > .form-control {
+      background-color: transparent;
+      border: 1px solid #fff;
+      font-size: 15px;
+      padding: 3px 5px;
+     color:#fff;
+      margin: 10px 0;
+      border-radius:0px;
+  }
+  .sec-hint-btn {
+      padding-right:0px;
+  }
+  select option:first-child{
+    color: #555;
+  }
+  select option{
+      color:#555 /*#fff*/;
+  } 
+  select#registering-as, input#contactPerson, input#mobile, input#username-reg,input#compnyName {
+      background-color: transparent;
+      border: 1px solid #fff;
+      font-size: 15px;
+      width: 100%;
+      float: left;
+      color:#fff;
+      border-radius: 0px;
+      padding: 3px 5px;
+      margin: 10px 0;
+  }
+  
+  .country_label {
+       width: 49%;
+       float:left;
+       clear:both;
+  }
+  select#country {
+      background-color: transparent;
+      border: 1px solid #fff;
+      font-size: 15px;
+      float: left;
+      color:#fff;
+      border-radius:0px;
+      padding: 3px 5px;
+      margin: 10px 0;
+  }
+  
+  .cityReg_label {
+       width: 49%;
+       float:right;
+  }
+   select#cityReg {
+      background-color: transparent;
+      border: 1px solid #fff;
+      font-size: 15px;
+      float: right;
+      padding: 3px 5px;
+      margin: 10px 0;
+      color:#fff;
+      border-radius: 0px;
+  }
+  label.error {
+      color :red;
+      font-size:15px;
+      font-weight:bold;
+      text-align:left;
+      float:left;
+      margin: -3px 0px 0px 0px;
+  }
+  
+  
+  /*nagarjun css for get a quote satrts*/
+  
+  #ecxcess_baggage_quote > .form_height > label.error {
+      color: red !important;
+      font-size: 12px !important;
+      font-weight: bold;
+      text-align: left;
+      float: left;
+      margin: -3px 0px 0px 0px;
+  }
+  #courier_service_quote > .form_height > label.error {
+      color: red !important;
+      font-size: 12px !important;
+      font-weight: bold;
+      text-align: left;
+      float: left;
+      margin: -3px 0px 0px 0px;
+  }
+  #courier_service_quote > .mob_pd  > label.error {
+      color: red !important;
+      font-size: 12px !important;
+      font-weight: bold;
+      text-align: left;
+      float: left;
+      margin: -3px 0px 0px 0px;
+  }
+  /*ends*/
+  @media only screen and (max-width:767px) {
+  .arrow-up {
+      left: 46% /* 54% */;
+  }
+  .arrow-up2 {
+      right: 17%;
+  }
+  /* .arrow-up3 {
+      left: 72%;
+  } */
+  .login {
+      right: -10px !important;
+      top:56px;
+  }
+  .signup_top{
+      right: -7px !important;
+      top:56px;
+  }
+  .callback_page {
+      right:-8px!important;
+      top: 54px;
+  }
+  .mob-res-fix {
+      margin-top: 15px !important;
+  }
+  }
+  
+  @media only screen and (max-width:1100px) and (min-width:900px) {
+  .arrow-up3 {
+      left:48%;
+  }
+  .arrow-up {
+      left:7%;
+  }
+  }
+  @media only screen and (max-width:901px) and (min-width:768px) {
+  .arrow-up3 {
+      left:45%;
+  }
+  .arrow-up {
+      left:5%;
+  }
+  }
+  @media only screen and (max-width:767px) {
+  /* .login, .callback_page {
+      right:16px !important;
+  } */
+  .arrow-up3 {
+      left:60%;
+  }
+  .arrow-up {
+      left:33%;
+  }	
+  }
+  
+  @media screen and (max-width:378px) {
+      .mob-width {
+          margin:0px!important;
+      }
+      .arrow-up {
+          left:41%;
+      }
+      .arrow-up3 {
+          left:60%;
+      }
+      .login {
+          right:44px !important;
+          width:290px;
+      }
+      .login > .formholder, .callback_page > .formholder, .callback_page {
+          width:290px;
+      }
+  }
+  
+  .signup_username, .signup_mobile, .signup_contactperson, .signup_country {
+      border: 1px solid #ccc !important;
+      padding: 10px 10px !important;
+      font-size: 18px !important;
+      margin: 0px !important;
+  }
+  .register_select {
+      border: 1px solid #ccc !important;
+      padding: 10px 10px !important;
+      font-size: 18px !important;
+      margin-bottom:15px !important;
+      
+  }
+  
+  /* Aravinthan added style end */
+  /* Raja added style for login input starts */
+  /* form starting stylings ------------------------------- */
+  .group 			  { 
+    position:relative; 
+    margin-bottom:20px; 
+  }
+  .group input[type="email"], .group input[type="password"], .group input[type="number"], .group input[type="time"], .group input[type="text"],.group select[name="preferred_time"]{
+    font-size:15px;
+    padding:5px 10px 5px 5px;
+    display:block;
+    width:100%;
+    color:#fff;
+    border:none;
+    background:transparent;
+    border-bottom:1px solid #c1bcbc;
+  }
+  .group input[type="email"]:focus, .group input[type="password"]:focus, .group input[type="number"]:focus, .group input[type="time"]:focus, .group input[type="text"]:focus,.group select[name="preferred_time"]:focus 		{ outline:none; }
+  
+  /* LABEL ======================================= */
+  .group label 				 {
+    color:#c1bcbc; 
+    font-size:15px;
+    font-weight:normal;
+    position:absolute;
+    pointer-events:none;
+    left:5px;
+    top:10px;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  
+  /* active state */
+  .group input[type="email"]:focus ~ label, .group input[type="password"]:focus ~ label, .group input[type="number"]:focus ~ label, .group input[type="time"]:focus ~ label, .group input[type="text"]:focus ~ label,.group select[name="preferred_time"]:focus ~ label,
+  .group input[type="email"]:valid ~ label, .group input[type="password"]:valid ~ label, .group input[type="number"]:valid ~ label, .group input[type="time"]:valid ~ label, .group input[type="text"]:valid ~ label,.group select[name="preferred_time"]:valid ~ label
+  {
+    top:-18px;
+    font-size:13px;
+    color:#fff;
+  }
+  
+  /* BOTTOM BARS ================================= */
+  .bar 	{ position:relative; display:block; width:100%; }
+  .bar:before, .bar:after 	{
+    content:'';
+    height:2px; 
+    width:0;
+    bottom:1px; 
+    position:absolute;
+    background:#fff; 
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  .bar:before {
+    left:50%;
+  }
+  .bar:after {
+    right:50%; 
+  }
+  
+  /* active state */
+  .group input:focus ~ .bar:before, .group input:focus ~ .bar:after {
+    width:50%;
+  }
+  
+  /* HIGHLIGHTER ================================== */
+  .highlight {
+    position:absolute;
+    height:60%; 
+    width:100px; 
+    top:25%; 
+    left:0;
+    pointer-events:none;
+    opacity:0.5;
+  }
+  
+  /* active state */
+  input:focus ~ .highlight {
+    -webkit-animation:inputHighlighter 0.3s ease;
+    -moz-animation:inputHighlighter 0.3s ease;
+    animation:inputHighlighter 0.3s ease;
+  }
+  
+  /* ANIMATIONS ================ */
+  @-webkit-keyframes inputHighlighter {
+      from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+  }
+  @-moz-keyframes inputHighlighter {
+      from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+  }
+  @keyframes inputHighlighter {
+      from { background:#5264AE; }
+    to 	{ width:0; background:transparent; }
+  }
+  
+  .form-signin > label.error{
+      color: red;
+      font-size: 14px !important;
+      text-align: left;
+      float: right!important;
+      position:relative;
+      margin:-23px 0px 0px 0px;
+  }
+  #callback-form label.error,#forgot-pwd-form label.error {
+      color: red;
+      font-size: 14px !important;
+      display:none;
+     /*  font-weight: normal; */
+      text-align: left;
+      float: right !important;
+      position: relative;
+      margin: -23px 0px 0px 0px;
+  }
+  .quoteradio {
+      margin-left:-8px;
+  }
+      .quoteradio span::before,
+  .quoteradio span::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .quoteradio label {
+    position: relative;
+    color: #fff;
+      font-size: 13px;
+      font-weight: 400;
+  }
+  .quoteradio input[type=radio]:not(old){
+    width   : 28px;
+    margin  : 0px 8px 0px 0px;
+     float: left;
+    padding : 0;
+    opacity : 0;
+  }
+   .quoteradio span.radio:hover {
+    cursor: pointer;
+  }
+  .quoteradio span.radio::before {
+  left: -42px;
+      width: 36px;
+      height: 19px;
+      background-color: rgba(168, 170, 193, 0.01);
+      border: 1px solid #fff;
+      border-radius: 50px;
+  }
+  .quoteradio span.radio::after {
+          left: -38px;
+      top: 0px;
+      width: 13px;
+      height: 13px;
+      border-radius: 10px;
+      background-color: #8494b9;
+      transition: left .25s, background-color .25s;
+  }
+  .quoteradio input[type="radio"]:checked + label span.radio::after {
+       left: -22px;
+      background-color: #ffffff;
+  }
+  
+  @-moz-document url-prefix() {
+    select[name="preferred_time"] option{
+      background:#fff !important;
+  }
+  }
+  
+  /* Yogapriya Added Css for Site Map Started */
+  .sitemap_space{
+      float:left;	
+  }
+  .home_box, .afb_box, .services_box, .search_box, .media_box, .help_box  {
+      border:1px solid #D7D7D7;
+      background:#EFEFEF;
+      float:left;
+      width:100%;
+      color:#24386A;
+      font-weight:bold;
+      text-align:left;
+      Padding:10px 15px;
+      font-size:17px;
+      
+  }
+  .home_content, .afb_content, .services_content, .search_content, .media_content, .help_content {
+      border:1px solid #D7D7D7;
+      text-align:left;
+      border-top:none;
+      float:left;
+      width:100%;
+      Padding:10px 15px;
+      color:#000;
+      
+  }
+  .afbfield{
+      width:100%;
+      float:left;
+      margin-bottom:25px;	
+  }
+  .site_mc{
+      width:100%;
+      float:left;
+  }
+  .home_sect, .services_sect, .search_sect, .media_sect{
+      float:left;
+      width:100%;
+      margin-bottom:25px;	
+  }
+  .help_sect{
+      width:100%;
+      float:left;
+      margin-bottom:25px;	
+  }
+  
+  .home_content>ul li a, .afb_content>ul li a, .services_content>ul li a, .search_content>ul li a, .media_content>ul li a, .help_content>ul li a{
+      color:#000;
+  }
+  .news_blog{
+      width:100%;
+      float:left;
+      
+  }
+  .news_box {
+      border: 1px solid #D1D1D1;
+      height: auto;
+      float: left;
+      width: 100%;
+  }
+  
+  .blogs_box {
+      border: 1px solid #D1D1D1;
+      height: auto;
+      float: left;
+      width: 100%;
+      margin-bottom:20px;
+  }
+  
+  .site_mapcontent {
+      margin-top: 40px;
+      margin-bottom: 85px;
+  }
+  
+  .news_title {
+      border-bottom: 1px solid #D7D7D7;
+      height: 50px;
+      float: left;
+      width: 100%;
+      background: #EFEFEF;
+  }
+  
+  .news_yr {
+      border-bottom: 1px solid #D1D1D1;
+      height: 70px;
+      float: left;
+      width: 90%;
+      padding-top: 18px;
+      margin-left: 20px;
+  }
+  
+  .news_firstyr {
+      border-right: 1px solid #D1D1D1;
+      margin-top: 5px;
+      width: 20%;
+      float: left;
+      margin-left: 5px;
+  }
+  
+  .year_display {
+      width: 90%;
+      border: 1px solid #D1D1D1;
+      float: left;
+      background: #D1D1D1;
+      padding-top: 3px;
+      color: #1E3265;
+  }
+  
+  .year_displaycolor {
+      width: 90%;
+      border: 1px solid #1E3265;
+      float: left;
+      background: #1E3265;
+      padding-top: 3px;
+      color: #fff;
+  }
+  
+  .news_display {
+      border-bottom: 1px dashed #D1D1D1;
+      float: left;
+      margin-top: 20px;
+      width: 90%;
+      text-align: left;
+      margin-left: 20px
+  }
+  
+  .news_heading {
+      text-align: left;
+      font-weight: bold;
+      color: #000;
+      line-height: 20px;
+  }
+  
+  .news_dts {
+      text-align: left;
+      color: #B3B3B3;
+  }
+  
+  .pages_num {
+      padding: 10px;
+      float: right;
+  }
+  
+  .page_numstart {
+      width: 25px;
+      height: 25px;
+      color: #000;
+  }
+  
+  .news_head {
+      font-weight: bold;
+      color: #1E3265;
+      float: left;
+      border-right: 1px solid #D1D1D1;
+      height: 50px;
+      padding-top: 12px;
+      width: 20%;
+      font-size: 17px !important;
+      text-align:left;
+      padding-left:15px;
+  }
+  
+  .news_firstyrborder {
+      border-right: none;
+      margin-top: 5px;
+      width: 20%;
+      float: left;
+      margin-left: 5px;
+  }
+  
+  .page_numone {
+      color: #ED2624;
+  }
+  
+  .next_pages {
+      float: left;
+      width: 100%;
+      margin-top: 18px;
+      margin-bottom: 10px;
+  }
+  /* Yogapriya Added QuickAccord Css for Site Map Start */
+  ul {
+      list-style-type: none;
+  }
+  
+  .accordion-trigger {
+      background-color: #F0F0F0;
+      display: block;
+      padding-top: 8px;
+      position: relative;
+      margin-bottom: 8px;
+      border: 1px solid #D1D1D1;
+      color: #1E3265;
+      font-weight: bold;
+      height: 40px;
+      text-align: left;
+      padding-left: 15px;
+      font-size: 17px;
+  }
+  
+  .accordion-trigger:after {
+      display: block;
+      position: absolute;
+      right: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2em;
+  }
+  
+  .accordion-trigger.expanded:after {
+      content: "-";
+      color: #ED2624;
+  }
+  
+  .accordion-trigger.collapsed:after {
+      content: "+";
+      color: #ED2624;
+  }
+  
+  .accordion-content {
+      overflow: hidden;
+      -webkit-transition: height 0.25s;
+      -moz-transition: height 0.25s;
+      transition: height 0.25s;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+  }
+  
+  .accordion-content.expanded {
+      height: auto;
+      margin: 0px !important;
+      margin-top: -11px !important;
+      border: 1px solid #ccc !important;
+      margin-bottom: 10px !important;
+      padding-left: 10px !important;
+      padding-bottom: 0px!impoprtant;
+  }
+  
+  .accordion-content.collapsed {
+      height: 0;
+  }
+  
+  .accordion-content p {
+      padding: 16px;
+  }
+  
+  .homepage_link {
+      border: 1px solid #EDEDED;
+      background: #EDEDED;
+      color: #25386A;
+      width: 100%;
+      float: left;
+      margin-bottom: 5px;
+  }
+  .explr-lineone {
+      border-left: 1px solid #999;
+      position: relative;
+      margin-left: 10px;
+  }
+  
+  .favarrow {
+      float: left;
+      color: #BDBDBD;
+  }
+  
+  .favarrowone {
+      float: left;
+      margin-top: 5px;
+      color: #BDBDBD;
+  }
+  
+  .favarrowtwo {
+      float: left;
+      margin-top: 5px;
+      color: #BDBDBD;
+  }
+  
+  
+  .home_link {
+      border: 1px solid #ccc;
+      float: left;
+      width: 85%;
+      margin-top: -5px;
+      /* margin-bottom: 5px; */
+      color: #1E3265;
+      margin-bottom: 7px;
+      background: #EDEDED;
+      text-align: left;
+      padding-left: 10px;
+      font-size: 15px;
+  }
+  
+  .home_link:hover {
+      background: #1E3265;
+      border-color: #1E3265;
+      color: #fff;
+  }
+  
+  .icon-text {
+      float: left;
+      width: 100%;
+  }
+  
+  .register_link {
+      float: left;
+      width: 85%;
+      border: 1px solid #ccc;
+      background: #EDEDED;
+      margin-bottom: 6px;
+      text-align: left;
+      padding-left: 10px;
+      font-size: 15px;
+  }
+  
+  .register_link:hover {
+      background: #1E3265;
+      border-color: #1E3265;
+      color: #fff;
+  }
+  
+  .login_link {
+      float: left;
+      width: 85%;
+      border: 1px solid #ccc;
+      background: #EDEDED;
+      text-align: left;
+      padding-left: 10px;
+      font-size: 15px;
+  }
+  
+  .login_linkab {
+      float: left;
+      width: 85%;
+      border: 1px solid #ccc;
+      background: #EDEDED;
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 7px;
+      font-size: 15px;
+  }
+  
+  .login_linkab:hover {
+      background: #1E3265;
+      border-color: #1E3265;
+      color: #fff;
+  }
+  
+  .login_link:hover {
+      background: #1E3265;
+      border-color: #1E3265;
+      color: #fff;
+  }
+  
+  .home_txtcolor {
+      color: #fff;
+  }
+  
+  .reg_txtcolor {
+      color: #1E3265;
+  }
+  
+  a:hover {
+      text-decoration: none;
+  }
+  
+  .top_line {
+      border-top: 2px solid #ccc;
+      width: 10px;
+      float: left;
+      margin-bottom: -2px;
+  }
+  
+  .bottom_line {
+      border-top: 2px solid #ccc;
+      float: left;
+      width: 10px;
+      margin-top: -2px;
+  }
+  @media only screen and (max-width: 991px){
+      .news_box{
+          margin-bottom:20px;
+      }
+  }
+  
+  /*Yogapriya added Media Query for Login & Callback Form*/
+  @media only screen and (min-width: 768px) and (max-width: 991px){
+      .callback_page{
+          right: 24%;
+          top: 60px !important;
+      }
+      .login{
+          right: 21% !important;
+          top: 62px !important;
+      }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px){
+      .login{
+          right: 22%;
+      }
+      .callback_page{
+          right: 21%;
+      }
+  }
+  @media only screen and (min-width: 1200px) and (max-width: 1280px){
+      .callback_page{
+          right: 21%;
+      }
+  }
+  @media only screen and (min-width: 863px) and (max-width: 901px){
+      .arrow-up3 {
+      left: 42%;
+  }
+  }
+  @media only screen and (min-width: 800px) and (max-width: 862px){
+      .arrow-up3 {
+      left: 52%;
+  }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 799px){
+      .arrow-up3 {
+      left: 49%;
+  }
+  }
+  /* Yogapriya Added Css for Site Map Ended */
+  .commen_div,.commen{
+      width: 100%;
+      float: left;
+  }
+  .commen_div > .news{
+      height:480px !important;
+  }
+  .commen > .blog{
+      height:480px !important;
+  }
+  .year_active{
+      background: #1E3265;
+      color:#fff;
+  }
+  
+  /* raja added the pagination style for sitemap page*/
+  .commen_div > .idpaginate,
+  .commen > .idpaginate {
+      padding: 20px 20px;
+      float: right;
+      width: 100%;
+      word-wrap: break-word;}
+      /* raja added the pagination style for sitemap page*/

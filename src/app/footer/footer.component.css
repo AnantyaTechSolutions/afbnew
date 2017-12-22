@@ -1,0 +1,16 @@
+.copyright_text{
+    width: 100%;
+    float: left;
+    background: rgba(56, 56, 56, 0.93);
+    font-size: 13px;
+    text-align: center;
+    color: rgba(221, 221, 221, 0.7);
+    padding: 3px;
+}
+footer{
+    background: #555;
+    color: #fff;
+    padding: 40px 0;
+}
+
+
